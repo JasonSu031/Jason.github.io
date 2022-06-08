@@ -1,106 +1,364 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href = "carousel.css">
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+          <link rel="stylesheet" href = "carousel.css">
 
-</head>
-<body>
-    <div class = "container my-3">
-      <div class="row">
-        <div class="col-md-2 col-sm-0">
-        </div>
-        <div class="col-md-7 col-sm-8">
-          <span>
-            <img src="/assets/vetLogo.jpg" alt="" width="20%">
-            <h3 class="display-6 d-inline fw-bold">Ottawa Animal Hospital</h3>  
-          </span>
-        
-        </div>
-        <div class="col-md-3 col-sm-0 bg-danger text-white pt-3 ps-3 d-none d-lg-block">
-          <i class="bi bi-telephone">&nbsp;:&nbsp;123-456-7890</i></br>
-          <i class="bi bi-geo-alt">&nbsp;:&nbsp;00 Sweetland St. </i></br>
-          <i>&emsp;&nbsp;&nbsp;Ottawa, ON O2H9A1 </br></i>
-          <i class="bi bi-clock">&nbsp;:&nbsp;Weekdays: 9:00-9:00</i></br>
-          <i>&emsp;&nbsp;&nbsp;Weekends: 10:00-5:00</br></i>
-        </div>
-      </div>
-    </div>
-
-    <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      
-      <div class="container-fluid d-md-none">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenuBar" aria-controls="navbarSupportedContent" aria-expanded="false">
-          Menu
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class = "collapse navbar-collapse justify-content-center" id = "hiddenMenuBar">
-        <ul class="navbar-nav fw-bold lead">
-          <li class="nav-item">
-            <a href="vetHome.html" class="nav-link px-3">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="vetSchedule.html" class="nav-link px-3">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a href="vetServices.html" class="nav-link active px-3" aria-current = "true">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="vetExperts.html" class="nav-link px-3">Experts</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--Grid layout for Services-->
-    <div class="container-fluid py-5">
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-9">
-                <!--First row of services-->
-                <div class="row" >
-                    <div class="col-3" style="border: thin solid grey">
-                        hi
-                    </div>
-                    <div class="col-7" style="border: thin solid grey">
-                        Hi
-                    </div>
-                    <div class="col"></div>
-                </div>
+      </head>
+      <body>
+          <div class = "container my-3">
+            <div class="row">
+              <div class="col-md-2 col-sm-0">
+              </div>
+              <div class="col-md-7 col-sm-8">
+                <span>
+                  <img src="/assets/vetLogo.jpg" alt="" width="20%">
+                  <h3 class="display-6 d-inline fw-bold">Ottawa Animal Hospital</h3>  
+                </span>
+              
+              </div>
+              <div class="col-md-3 col-sm-0 bg-danger text-white pt-3 ps-3 d-none d-lg-block">
+                <i class="bi bi-telephone">&nbsp;:&nbsp;123-456-7890</i></br>
+                <i class="bi bi-geo-alt">&nbsp;:&nbsp;00 Sweetland St. </i></br>
+                <i>&emsp;&nbsp;&nbsp;Ottawa, ON O2H9A1 </br></i>
+                <i class="bi bi-clock">&nbsp;:&nbsp;Weekdays: 9:00-9:00</i></br>
+                <i>&emsp;&nbsp;&nbsp;Weekends: 10:00-5:00</br></i>
+              </div>
             </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
+          </div>
 
-    <!--Footer-->
-    <div class="container-fluid bg-dark pt-5 pb-4">
-      <div class="row">
-        <div class="col-3">
+          <!--navbar-->
+          <nav class="navbar navbar-expand-md navbar-light bg-light">
+            
+            <div class="container-fluid d-md-none">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hiddenMenuBar" aria-controls="navbarSupportedContent" aria-expanded="false">
+                Menu
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class = "collapse navbar-collapse justify-content-center" id = "hiddenMenuBar">
+              <ul class="navbar-nav fw-bold lead">
+                <li class="nav-item">
+                  <a href="vetHome.html" class="nav-link px-3">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="vetSchedule.html" class="nav-link px-3">Schedule</a>
+                </li>
+                <li class="nav-item">
+                  <a href="vetServices.html" class="nav-link active px-3" aria-current = "true">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="vetExperts.html" class="nav-link px-3">Experts</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-        </div>
-        <div class="col-lg-3 text-white text-center">
-          <p class="lead fw-bold">Pages</p>
-          <!--Fill in the pages-->
+          <!--Grid layout for Services-->
+          <div class="container-fluid py-5">
+              <div class="row">
+                  <div class="col-2"></div>
+                  <div class="col-9">
+                      <!--First row of services-->
+                      <div class="row bg-danger">
+                          <div class="col-2 d-flex justify-content-center rounded me-3" >
+                              <img class = "p-3 rounded" src="/assets/search.png" alt="Diagnosis" style = "height:100px">
+                          </div>
+                          <div class="col-7 mt-3 mb-2" >
+                              <!--Diagnostic Accordion item-->
+                              <div class="accordion" id="diagnosticAcc">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="diagnosticHeading">
+                                    <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#diagnosticColl" aria-expanded="false" aria-controls="diagnosticColl">
+                                      Diagnostics
+                                    </button>
+                                  </h2>
+                                  <div id="diagnosticColl" class="accordion-collapse collapse" aria-labelledby="diagnosticHeading" data-bs-parent="#diagnosticAcc">
+                                    <div class="accordion-body"> 
+                                      We offer highly effective diagnosis tests with high-tech equipment such as ultrasound and x-rays. Many of our experts have worked in this field for many years.</br> 
+                                      <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $20-$480.</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
 
-        </div>
-        <div class="col-lg-3 text-white text-center">
-          <p class="lead fw-bold">Information</p>
-          <i class="bi bi-telephone">&nbsp;:&nbsp;123-456-7890</i></br>
-          <i class="bi bi-geo-alt">&nbsp;:&nbsp;00 Sweetland St. </i></br>
-          <i>&emsp;&nbsp;&nbsp;Ottawa, ON O2H9A1 </br></i>
-          <i class="bi bi-clock">&nbsp;:&nbsp;Weekdays: 9:00-9:00</i></br>
-          <i>&emsp;&nbsp;&nbsp;Weekends: 10:00-5:00</br></i>
-        </div>
-      </div>
-    </div>
+                      <!--Second row of services-->
+                      <div class="row">
+                        <div class="col-2 d-flex justify-content-center rounded me-3" >
+                            <img class = "p-3 rounded" src="/assets/syringe.png" alt="Diagnosis" style = "height:100px">
+                        </div>
+                        <div class="col-7 mt-3 mb-2" >
+                            <!--Diagnostic Accordion item-->
+                            <div class="accordion" id="vaccineAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="vaccineHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#vaccineColl" aria-expanded="false" aria-controls="vaccineColl">
+                                    Vaccines
+                                  </button>
+                                </h2>
+                                <div id="vaccineColl" class="accordion-collapse collapse" aria-labelledby="vaccineHeading" data-bs-parent="#vaccineAcc">
+                                    <div class="accordion-body"> We offer the following shots:</br>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Distemper
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $5
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Hepatitis (CAV)
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $8
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Parvovirus
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $9
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Parainfluenza
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $7
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Leptospirosis
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $8
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Coronavirus
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $9
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Lyme Disease
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $11
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Canine Cough
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $8
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-5">
+                                          <li>
+                                            Rabies
+                                          </li>  
+                                        </div>
+                                        <div class="col-6 text-danger fw-bold">
+                                          Price: $12
+                                        </div>
+                                      </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
-</html>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col"></div>
+
+                        <!--Third row of services-->
+                      <div class="row bg-danger">
+                        <div class="col-2 d-flex justify-content-center rounded me-3" >
+                            <img class = "p-3 rounded" src="/assets/head.png" alt="Diagnosis" style = "height:150px">
+                        </div>
+                        <div class="col-7 mt-3 mb-2" >
+                            <!--Ear Accordion item-->
+                            <div class="accordion mb-2" id="earAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="earHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#earColl" aria-expanded="false" aria-controls="earColl">
+                                    Ear Treatments
+                                  </button>
+                                </h2>
+                                <div id="earColl" class="accordion-collapse collapse" aria-labelledby="earHeading" data-bs-parent="#earAcc">
+                                  <div class="accordion-body"> 
+                                    Our experts will recommend your pet an antibiotic for ear infections. If your dog has hearing issues, we can also perform surgery.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $40-$200.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--Eyes-->
+                            <div class="accordion mb-2" id="eyeAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="eyeHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#eyeColl" aria-expanded="false" aria-controls="eyeColl">
+                                    Eye Treatments
+                                  </button>
+                                </h2>
+                                <div id="eyeColl" class="accordion-collapse collapse" aria-labelledby="eyeHeading" data-bs-parent="#eyeAcc">
+                                  <div class="accordion-body"> 
+                                    We offer effective and harmless medication prescriptions for your pet.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $25-$50.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion" id="mouthAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="mouthHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#mouthColl" aria-expanded="false" aria-controls="mouthColl">
+                                    Mouth Treatments
+                                  </button>
+                                </h2>
+                                <div id="mouthColl" class="accordion-collapse collapse" aria-labelledby="mouthHeading" data-bs-parent="#mouthAcc">
+                                  <div class="accordion-body"> 
+                                    Does your pet have stinky breath? Is it full of cavities and tar? We can perform a full-clean or a slight flossing.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $45-$200.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                      </div>
+
+                      <div class="row bg-white">
+                        <div class="col-2 d-flex justify-content-center rounded me-3" >
+                            <img class = "p-3 rounded" src="/assets/body.png" alt="Diagnosis" style = "height:130px">
+                        </div>
+                        <div class="col-7 mt-3 mb-2" >
+                            <!--Liver Accordion item-->
+                            <div class="accordion mb-2" id="liverAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="liverHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#liverColl" aria-expanded="false" aria-controls="liverColl">
+                                    Liver Treatment
+                                  </button>
+                                </h2>
+                                <div id="liverColl" class="accordion-collapse collapse" aria-labelledby="liverHeading" data-bs-parent="#liverAcc">
+                                  <div class="accordion-body"> 
+                                    Typically, some medication will help resolve liver problems. However, sometimes it requires surgery which is much more expensive.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $30-$200.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--Kidney-->
+                            <div class="accordion mb-2" id="kidneyAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="kidneyHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#kidneyColl" aria-expanded="false" aria-controls="kidneyColl">
+                                    Kidney Treatment
+                                  </button>
+                                </h2>
+                                <div id="kidneyColl" class="accordion-collapse collapse" aria-labelledby="kidneyHeading" data-bs-parent="#kidneyAcc">
+                                  <div class="accordion-body"> 
+                                    Typically, some medication will help resolve kidney problems. However, sometimes it requires surgery which is much more expensive.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $23-$80.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--Stomach-->
+                            <div class="accordion mb-2" id="stomachAcc">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="stomachHeading">
+                                  <button class="accordion-button collapsed" type = "button" data-bs-toggle="collapse" data-bs-target="#stomachColl" aria-expanded="false" aria-controls="stomachColl">
+                                    Stomach Treatment
+                                  </button>
+                                </h2>
+                                <div id="stomachColl" class="accordion-collapse collapse" aria-labelledby="stomachHeading" data-bs-parent="#stomachAcc">
+                                  <div class="accordion-body"> 
+                                    Typically, some medication will help resolve stomach problems. However, sometimes it requires surgery which is much more expensive.</br> 
+                                    <span class = "mt-1 d-flex justify-content-center text-danger fw-bold">Prices range from $10-$150.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        <div class="col"></div>
+                    </div>
+
+
+
+                  </div>    
+                </div>
+              <div class="col-1"></div>
+              
+              </div>
+            </div>
+
+          <!--Footer-->
+          <div class="container-fluid bg-dark pt-5 pb-4">
+            <div class="row">
+              <div class="col-3">
+
+              </div>
+              <div class="col-lg-3 text-white text-center">
+                <p class="lead fw-bold">Pages</p>
+                <!--Fill in the pages-->
+
+              </div>
+              <div class="col-lg-3 text-white text-center">
+                <p class="lead fw-bold">Information</p>
+                <i class="bi bi-telephone">&nbsp;:&nbsp;123-456-7890</i></br>
+                <i class="bi bi-geo-alt">&nbsp;:&nbsp;00 Sweetland St. </i></br>
+                <i>&emsp;&nbsp;&nbsp;Ottawa, ON O2H9A1 </br></i>
+                <i class="bi bi-clock">&nbsp;:&nbsp;Weekdays: 9:00-9:00</i></br>
+                <i>&emsp;&nbsp;&nbsp;Weekends: 10:00-5:00</br></i>
+              </div>
+            </div>
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      </body>
+      </html>
