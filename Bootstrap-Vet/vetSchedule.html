@@ -162,10 +162,12 @@
                                         </select>
                                     </div>
                                 </div>
+
+
                                 <!--Submit button-->
                                 <div class="row">
                                     <div class="col d-flex justify-content-center">
-                                        <button class="btn btn-danger" onclick = "toggleSpinner('spin2')">
+                                        <button class="btn btn-danger" onclick = "toggleSpinner('spin2'); book();">
                                             Book Appointment
                                             <span id = "spin2" style= "display:none"class="spinner-border spinner-border-sm"></span>
                                         </button>
@@ -186,9 +188,50 @@
                     
                 </div>
             </div>
+            <div class="toast-container">
+                <div id = "1" class="toast" style = "position:fixed;right:0px;bottom:0px;">
+                    <div class="toast-header">
+                        <strong class = "me-auto text-danger">Appointment</strong>
+                        <small class="text-muted">just now</small>
+                        <button class="btn-close" data-bs-dismiss="toast" onclick = "reorganize()"></button>
+                    </div>
+                    <div class="toast-body">
+                        Appointment made Successfully!
+                    </div>
+                </div>
+                <div id = "2" class="toast" style = "position:fixed;right:0px;bottom:100px;">
+                    <div class="toast-header">
+                        <strong class = "me-auto text-danger">Appointment</strong>
+                        <small class="text-muted">just now</small>
+                        <button class="btn-close" data-bs-dismiss="toast" onclick = "reorganize()"></button>
+                    </div>
+                    <div class="toast-body">
+                        Appointment made Successfully!
+                    </div>
+                </div>
+                <div id = "3" class="toast" style = "position:fixed;right:0px;bottom:200px;">
+                    <div class="toast-header">
+                        <strong class = "me-auto text-danger">Appointment</strong>
+                        <small class="text-muted">just now</small>
+                        <button class="btn-close" data-bs-dismiss="toast" onclick = "reorganize()"></button>
+                    </div>
+                    <div class="toast-body">
+                        Appointment made Successfully!
+                    </div>
+                </div>
+                <div id = "4" class="toast" style = "position:fixed;right:0px;bottom:325px;">
+                    <div class="toast-header">
+                        <strong class = "me-auto text-danger">Appointment</strong>
+                        <small class="text-muted">just now</small>
+                        <button class="btn-close" data-bs-dismiss="toast" onclick = "reorganize()"></button>
+                    </div>
+                    <div class="toast-body">
+                        Appointment made Successfully!
+                    </div>
+                </div>
+            </div>
 
-
-
+            <!--Footer-->
             <div class="container-fluid bg-dark pt-5 pb-4">
                 <div class="row">
                 <div class="col-3">
